@@ -1,0 +1,54 @@
+.planContainer{
+    min-height: calc(100vh - 190px);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;  
+    width: 100%;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.planSubCon{
+    width: 100%;
+    max-width: 1160px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.planTitle{
+    width: 100%;
+    max-width: 1160px;
+    font-size: 26px;
+    color: #0c163b;;
+}
+
+.planCon{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1%;
+    justify-content: center;
+}
+
+.planWrapper{
+    background-color: #0c163b;;
+    color: white;
+    padding: 5%;
+    border-radius: 20px;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.planBtn {
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0071c2;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}

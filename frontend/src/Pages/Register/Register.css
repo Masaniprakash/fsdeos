@@ -1,0 +1,57 @@
+.reg {
+    min-height: calc(100vh - 170px);
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border:1px solid #0c163b;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.regInput{
+    height: 30px;
+    padding: 10px;
+}
+
+.regButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0c163b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.regButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+}
+
+.regHeading{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
+    color: #0c163b;
+    margin: 10px;
+}
+
+.error{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.formErr{
+    color:red;
+    margin: 0px 0;
+}
